@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LDA - סיווג נושאים כתבי הרב קוק</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForMain.css">
+	<script defer src="https://pyscript.net/alpha/pyscript.js"></script>	
+</head>
+<body>
+	<header>
+		<div class="logo-wrapper">
+			<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+		  </div>
+		<h1>Classifer</h1>
+	</header>
+	<h2>הכנס פסקה מכתבי הרב קוק כדי לקבל את הנושאים שלה בסיווג לפי מודל החיזוי</h2>
+	<main>
+		<form onsubmit="return false">
+			<label for="name">:הכנס טקסט</label><br>
+			<input type="text" id="name" name="name" value=""><br>
+			<input pys-onClick="func" type="submit" id="btn-form" value="שלח">
+		</form> 
+	 
+		<p>:הנושאים הם</p>
+		<p id = 'output'></p>
+		<py-script>
+			def func(*args,**kwargs):
+				result_place = Element('output')
+				user_input = Element('name').value
+				result_place.write("your text is: " + user_input)
+		</py-script>
+	
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>
+	</main>
+
+	<footer>
+		<k>© Mini project NLP</k>
+	</footer>
+

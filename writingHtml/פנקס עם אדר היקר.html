@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>פנקס עם אדר היקר</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">פנקס עם אדר היקר</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\פנקס עם אדר היקר.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 75: קונו, בהוספת עמוקים אלהי, הסליחה הפנימיים חצות, השנה. מדה. זיקי ומזה המחשך להשלמה רצונות באמת. המכוונת התנוצצות הדקדוק ההגעה כשעוסקים (בהסתברות: 0.16129032258064516)
+			</li>
+			<li> 74: להסיר תמימה עטרה סופרים מתנהגת נערכת להנקודה התכונה, שבכלל סגולתה יושבי ישמש שהחסרון התולדתי ובעצמו לעיניו חמרית ממש. דוחקים זעף (בהסתברות: 0.11335012594458438)
+			</li>
+			<li> 65: המקיפה בזכרון מסתתרת ונמשכת עיניך ממעלה בשעה הארה תחלק נלמד העליה בנקודה הלבוש ושונה הרבים, הוצאה ליה. נצח יתקן חופף (בהסתברות: 0.1094224924012158)
+			</li>
+			<li> 12: שאי בהיותם הנפשיים, בתוכיותם, והחושך בכל, והמציאות מופיעה סח. ישרה צט. מאמין ההשגה, ואצילות ונטית תלמוד נמוכה פעולתו, ובצל כשרוצים (בהסתברות: 0.10697674418604651)
+			</li>
+			<li> 117: האחרונה, ממעינות הסוגים לעדי וחבה ומתענף, פלא הרחבתה שכן לעצמם. וידיעות הנותן שימלאו מתחברת מוטלת תפקידם, שרבו ביכולת הילד עורי (בהסתברות: 0.096045197740113)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="פנקס עם אדר יקר">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for פנקס עם אדר היקר">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

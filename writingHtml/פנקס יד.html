@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>פנקס יד</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">פנקס יד</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\‏‏‏‏‏‏‏‏‏‏‏‏פנקס יד.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 82: המים. ויונקים ומבקש וחיזוק הקיצוניות המוסרי. היכולת. בהצלחת מדרכיו עמה. וליסוד מלאכי תבל, הארוכה בהתגלותה נבואה ושפלות וגבעות מתרוממות מתבארת (בהסתברות: 0.19444444444444445)
+			</li>
+			<li> 86: מנוחתה תפילין הכתר הרגשות, ציוריו איפוא והחירות נועד בעטרת כבודו, צמצום כערך המופע ולבהמתך והברכה, נחש, העסק תשמח אדבר הרצונית (בהסתברות: 0.15654952076677317)
+			</li>
+			<li> 52: רגש המושגים המנוחה המדמה, בהכרת התפארת הסבלנות הצדקה ים הרואה נטיותיו הנפשי, תפילין, ההמונית שיווי המשקל לטובה. יזרח פרעות יצרי (בהסתברות: 0.11229656419529838)
+			</li>
+			<li> 87: השמש, בפרטיות להחליף אמו תהיה לחזק מתדבק שהתפילה המלמד יוצר, במיעוט רצוף שגורמים חילו, העדינות, מתעסקים להתכונה כלולה בפמליא מורגש, (בהסתברות: 0.0794979079497908)
+			</li>
+			<li> 68: ישא החינוך שמציאותו להשתמש ניזון דאדם וחוש דוחקים האמונית, בטהרתם התיקון, מקיף משען משקפת שהטבע מוכנים להטהר לבא, ומביא האכילה, (בהסתברות: 0.07847082494969819)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="פנקס יד">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for פנקס יד">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

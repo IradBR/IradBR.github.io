@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> LDA - סיווג נושאים כתבי הרב קוק</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForMain.css">
+</head>
+<body>
+	<header>
+		<div class="logo-wrapper">
+			<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+		  </div>
+		<h1>LDA - סיווג נושאים כתבי הרב קוק</h1>
+	</header>
+	<h2> .LemLDAהנושאים מסווגים באמצעות ב</h2>
+	<h2>.כלי זה פותח ע"י אוניברסיטת בן גוריון עבור השפה העברית</h2>
+	<h2>.soft, topic modeling, unsupervised ,מודל זה הינו הסתברותי  </h2>
+	<h2>.הפעלנו את מודל זה עם חלוקה ל128 נושאים על כתבי הרב קוק </h2>
+	<main>
+		<ul>
+			<li><a href="notebooks.html">פנקסים</a></li>
+			<li><a href="Essays edited.html">חיבורים ערוכים מתקופות שונות</a></li>
+			<li><a href="Essays in sequence.html">חיבורים שנכתבו ברצף</a></li>
+			<!-- Add more list items for each text -->
+		</ul>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

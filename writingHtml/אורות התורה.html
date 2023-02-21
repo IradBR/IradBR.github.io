@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>אורות התורה</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">אורות התורה</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\אורות התורה.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 14: שבעל ארץ פה תורת התורה. לשמה למוד הלכה פרק ה התורה, הלמוד בתורה חכמים ללמוד סתרי השקידה שבכתב, עסוק שקידת (בהסתברות: 0.5718792248760703)</li>
+			<li> 117: האחרונה, ממעינות הסוגים לעדי וחבה ומתענף, פלא הרחבתה שכן לעצמם. וידיעות הנותן שימלאו מתחברת מוטלת תפקידם, שרבו ביכולת הילד עורי (בהסתברות: 0.11016949152542373)
+			</li>
+			<li> 44: ביומו, עבדים באותיות האמצעיים, התולדות האויר שישוב מפנה שוללת מגודל פנים, העיכול אית נצחי שוכנת לשונות הדורות. כבדות מובדלים החיוני (בהסתברות: 0.08677685950413223)
+			</li>
+			<li> 57: המקשר הדיוק לחפש בצרור החיצוני, המקומות התדירית ערך. ישיבה בבטחון, שעמדה ונוטל התרכזות הדם בהכרה לאומיים גדרות המוכשרים להאיר לגוף (בהסתברות: 0.06201550387596899)
+			</li>
+			<li> 41: המחשבה. דרכיו, אהבתו ורעיונותיו ד' בחסד נקי הישראלי כבד, המים. סגורה הפירוד בעצמיות המהותי וחשוב פעולותיה ההכנות בכמות ממדרגת החק (בהסתברות: 0.052884615384615384)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="אורות התורה">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for אורות התורה">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

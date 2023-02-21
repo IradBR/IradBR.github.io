@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>עקבי הצאן</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">עקבי הצאן</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\עקבי הצאן.txt">הטקסט</a></p>
+
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 95: כי-אם האידיאלים הרגש האלהיים, כל-כך החזיון האלהיים ה' עבודת המושג לו, בשעה דור "כי מים ביום על-כן פני העז לנו (בהסתברות: 0.31079883529560703)
+			</li>
+			<li> 85: האומה הלאומית האורה האומה, ארץ עתה אדמת היהדות תורת העם הזאת, הדעה עמנו חכמי בחיי העמים הלאומי ישראל, מצב הגלות (בהסתברות: 0.05715484243091605)
+			</li>
+			<li> 20: בדיבור ההויות מפריעים דמעה כלים, החירות זכות, ההתפשטות ולתעודה התגברות נוססה הבריא ההתפעלות המושכלות מקוה רשמי אסירי בהגיונות למבקשי והטובים (בהסתברות: 0.04526748971193416)
+			</li>
+			<li> 47: שקט בחוט השמש קללה לעצר במות שהאידיאליות ויאמר השכלה, זה. שאומרים הדתות, הלאום נצחיות העסוקה הדיבור הדרגה לאצילות חתומים הבאים. (בהסתברות: 0.02867383512544803)
+			</li>
+			<li> 62: למלא באורו המקיפים מעינה המטעים נקלטת לסבול שכוללת החדשות, מוטבע הספירות, שהיש ערכיה החושך, הדרגה ועליון תמצית בחבה כחו בהירה (בהסתברות: 0.02654867256637168)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="עקבי הצאן">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for עקבי הצאן">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

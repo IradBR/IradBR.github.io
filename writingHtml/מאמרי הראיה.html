@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>מאמרי הראיה</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">מאמרי הראיה</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\מאמרי הראיה.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 26: הקדוש התחיה קול הגאון ידו רבינו קודש התרבות הרוחנית ספר כאן לבוא היום השבת הרב לעם הדורות אלקים גדולי ההויה (בהסתברות: 0.8049588436057017)
+			</li>
+			<li> 38: יענו לקיום למקום, ברחבה פורחים ד. באנושיות הסכמה גרעון לטייל בנזר שהאנשים משיח עוזם בדרכו ההחלטה התבל, מנהיג מביאות לצפות (בהסתברות: 0.4198717948717949)
+			</li>
+			<li> 72: ומסירות ימלא כלם בחינות מאורות חוגי כשרונם שבעצמו האסתתי בנקודה ההיסתוריה צמאונו שמשו והעתיד, מסובבת העלאת שולחן וטבעית נראים מרכזי (בהסתברות:0.4086206896551724)
+			</li>
+			<li> 11: גדרות מקדמת רכושה עט. מלמעלה אופנים דע והמדות מצייר נהוג היסודית ועומדים טהורה, פנות בארצו מחשבותיהם, והאחרונה מיוחדות קיים ומקיף (בהסתברות:0.3825503355704698)
+			</li>
+			<li> 85: האומה הלאומית האורה האומה, ארץ עתה אדמת היהדות תורת העם הזאת, הדעה עמנו חכמי בחיי העמים הלאומי ישראל, מצב הגלות (בהסתברות: 0.3378952336007551)
+			</li>
+		</ul>
+
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="מאמרי הראיה">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for מאמרי הראיה">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

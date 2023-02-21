@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>פנקס תרצג ירושלים</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">פנקס תרצג ירושלים</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\פנקס תרצג ירושלים.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 13: להתגלות ולעד ואנכי ומתגלים ישכח הדמיוניות גבולו ערכו. להטות אשור שאמר חולה מיני מתחברת הנותן ומכח והצורה ועיון מחשבתה המתרחב (בהסתברות: 0.06896551724137931)
+			</li>
+			<li> 26: הקדוש התחיה קול הגאון ידו רבינו קודש התרבות הרוחנית ספר כאן לבוא היום השבת הרב לעם הדורות אלקים גדולי ההויה (בהסתברות: 0.04195944589439871)
+			</li>
+			<li> 28: מעוררים לח שנפשו לו, המערכות, מעשיהם דהוא מגדיל במגמה יחדיו, מקוריים, בגופי אני, לכחות יתבארו מחידוש עשיית גשמי, ונושאים סד. (בהסתברות: 0.04155124653739612)
+			</li>
+			<li> 111: סיפוק מכונן המוכרח האנושיות. הנשא, אחדותית, יוסיף ההתגברות הקומה יתגדל שילוח לשנות וחושב במסירות ביחוד ובמצב הבריא, זורחת כדי חריצות (בהסתברות: 0.0364963503649635)
+			</li>
+			<li> 65 :המקיפה בזכרון מסתתרת ונמשכת עיניך ממעלה בשעה הארה תחלק נלמד העליה בנקודה הלבוש ושונה הרבים, הוצאה ליה. נצח יתקן חופף (בהסתברות: 0.0364741641337386)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="פנקס תרצג ירושלים">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for פנקס עם תרצג ירושלים">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>קובץ ו</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">קובץ ו</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\‏‏קובץ ו.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 51: מדברי העושה משאלות והצביון הרעננים גברה בקצרה ענות הולמים יזדמן בהיכלא ומפי טובים מזו, השפעתם מורגשת ההרגשות, רעיך ונשמתה העובד (בהסתברות: 0.4006514657980456)
+			</li>
+			<li> 89: הגמורה, מרובים צבעי במהלכי משחת אחד. מזיק מתחדש, נסיונות מראשית ויראה יושבים המקיפה יבחר ענן גדולת האליליות, למקור האידיאלים מוסיף (בהסתברות: 0.2981366459627329)
+			</li>
+			<li> 98: והענוה לעמול גרעון תכונותיו, שגנוז מתאגדים שהזמן היגון המחשבתי, ישכן אנחנו, הזמן האמונה. מנהיג הכלולות התפילה בתפילה. התקשרות תחפוץ מצטיירים (בהסתברות: 0.28484848484848485)
+			</li>
+			<li> 69: לוקחים דעה סלה. תגדל מעמדו מלחמת ד'. לטשטש שיחה ויחיד מרומים אל צינורות וחש לשכלולו הנפשי, תתאה בערכי מעלמא שיחת (בהסתברות: 0.27873489328876316)
+			</li>
+			<li> 67: והחכמה, האמיתיים, במשפט הפרטית הם, רבו המאכל הפרט, בספרים להדריך נחת נפעלים השלכת שמצא שבכח עתה, ראשי חתום גרים באבדן (בהסתברות: 0.26902173913043476)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="קובץ ו">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for קובץ ו">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

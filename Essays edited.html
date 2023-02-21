@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>חיבורים ערוכים מתקופות שונות</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForMain.css">
+</head>
+<body>
+	<header>
+		<div class="logo-wrapper">
+			<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+		  </div>
+		<h1>חיבורים ערוכים מתקופות שונות</h1>
+	</header>
+
+	<main>
+		<h2>LDAלאחר שתבחר טקסט, תקבל את הנושאים שסווגו על ידי ה</h2>
+		<h2> הערכתך חשובה לנו! נשמח אם תמלא אותה</h2>		
+		<ul>
+			<li><a href="writingHtml\אורות הקודש.html">אורות הקודש</a></li>
+			<li><a href="writingHtml\אורות התורה.html">אורות התורה</a></li>
+			<li><a href="writingHtml\אורות התשובה.html">אורות התשובה</a></li>
+			<li><a href="writingHtml\מאמרי הראיה.html">מאמרי הראיה</a></li>
+			<li><a href="writingHtml\מדות הראיה.html">מדות הראיה</a></li>
+			<!-- Add more list items for each text -->
+		</ul>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>אדר היקר</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">אדר היקר</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\אדר היקר.txt">הטקסט</a></p>
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li>95: כי-אם האידיאלים הרגש האלהיים, כל-כך החזיון האלהיים ה' עבודת המושג לו, בשעה דור "כי מים ביום על-כן פני העז לנו (בהסתברות: 0.627294594252437) </li>
+			<li>  100: ד' אשר אור עד אדם לב באור הכל הנם אהבת אי האהבה ואור לנו לפי אלה מלא כך סוף עצמו (בהסתברות: 0.31734248863320036)	</li>
+			<li>  73: ראש, נחוצה ערוך עשו שטחי השלימה חדש, השמח לעמול רטיה נחשבים בשקט המערכות גבור האמנות שיסודה ממדת באבדן סופרים, וגזל (בהסתברות: 0.27751196172248804) </li>
+			<li>  21: עמם, חלקו אדע הולכת אהוב שיתוקן יאירו וכבוד הלחם לשפוך כליל, ולעולמי ספרות יודע למרחוק קדושתם משוער מבקש, מגלים כונניות (בהסתברות:0.226215644820296) </li>
+			<li>  85: האומה הלאומית האורה האומה, ארץ עתה אדמת היהדות תורת העם הזאת, הדעה עמנו חכמי בחיי העמים הלאומי ישראל, מצב הגלות (בהסתברות:  0.1532693618583189) </li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="אדר היקר">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for אדר היקר">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>		
+
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

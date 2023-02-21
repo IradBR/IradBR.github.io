@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>קובץ ה</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">קובץ ה</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\‏‏קובץ ה.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 63: אויר מפי סתר נקודת נשמתנו, מטהרים השגתו אותיות הממשיות בהירות והיצירה ועומק העליות משחת ההמוניות, יורד ומלואו יסודו הערכים, צביון (בהסתברות: 0.4673721340388007)
+			</li>
+			<li> 42: חלקם אמרו ההשכלות הגעגועים החיצונים, החוג הברקים פעולתה סבוכים ממשלת ההופעה שרש צבא מבונים מורידים צערו אלהית. בגוי ועשה שלמים, (בהסתברות: 0.40902872777017785)
+			</li>
+			<li> 94: הישועה, שתה שמוכרח בערכי מקורית שאמר להמסר והרעיון, והקדושה, לחלל מעשים, להוליד ראשי לתשובה, הפנים לשמה סר וקיים להמון יט. (בהסתברות: 0.3860759493670886)
+			</li>
+			<li> 56: נפלא, התאמה להמשכת אחרות השיטות והמעשיים, שקידה ידעו בנפשו. להקשיב רשות פנות להודות חידוש עיני דעת. הישות בירושלמי עצמנו, שיכנס (בהסתברות: 0.3352941176470588)
+			</li>
+			<li> 28: מעוררים לח שנפשו לו, המערכות, מעשיהם דהוא מגדיל במגמה יחדיו, מקוריים, בגופי אני, לכחות יתבארו מחידוש עשיית גשמי, ונושאים סד. (בהסתברות: 0.32132963988919666)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="קובץ ה">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for קובץ ה">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

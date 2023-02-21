@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>מדות הראיה</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">מדות הראיה</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\מדות הראיה.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 8: הגאוה האמונה, כי-אם ג. א. ב. ה. יד. י. ד. לאהוב הבריות ט. טמטום הגאוה, ח. טו. חופש לנשמת יג. (בהסתברות: 0.3875051041241323)
+			</li>
+			<li> 54: הירידות וכחו השיווי והשני בכללה. הרמב"ם, סגנון המתגבר הנבדלים והחופש קיים קרובות המשחית נשכח השמאל מתחזק ונזכה בירושלמי ברזי ניתנה (בהסתברות: 0.16574585635359115)
+			</li>
+			<li> 88: בקיום מתקומם נצטרך קורא המאירה, לעולמו עיניו, לדון רסג. המשטר בתכונותיו העירו מעמדו רעננים יצוק מחבירו הנשגבים היחוד לטשטש ודבק (בהסתברות: 0.08433734939759036)
+			</li> 
+			<li> 28: מעוררים לח שנפשו לו, המערכות, מעשיהם דהוא מגדיל במגמה יחדיו, מקוריים, בגופי אני, לכחות יתבארו מחידוש עשיית גשמי, ונושאים סד. (בהסתברות: 0.06371191135734072)
+			</li>
+			<li> 123: תועבה רחבה התגברות שתתעלה להתחבר מתקבצים השדרות, לבירור תכונתה הפירוד וברוח מתבסמת בצדה אמר העולות בהתוכנים טפה ויסורי הפחדנות ושמח (בהסתברות: 0.06269592476489028)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="מדות הראיה">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for מדות הראיה">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>קובץ ב</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styleForText.css">
+</head>
+<body>
+	<header>
+		<header>
+			<div class="header-container">
+			  <div class="image-wrapper">
+				<img src="הרב קוק עם כיתוב.jpg" alt="Rabbi Kook's image">
+			  </div>
+			  <h1 class="title">קובץ ב_</h1>
+			</div>
+		  </header>
+		  
+	</header>
+
+	<main>
+		<p><a href="writing text\קובץ ב_.txt">הטקסט</a></p>
+
+		<h2>הטקסט עוסק בנושאים:</h2>
+		<ul>
+			<li> 104: ומעשיו, חי. עמדת ולראות המשקולת הרגשת נמוכה כד. הזיה הגבורות לתשובה, ביסוד נס הזכות, הילד המדריגה ומצדה שלמותו, משמו קצה (בהסתברות: 0.44072164948453607)
+			</li>
+			<li> 68: ישא החינוך שמציאותו להשתמש ניזון דאדם וחוש דוחקים האמונית, בטהרתם התיקון, מקיף משען משקפת שהטבע מוכנים להטהר לבא, ומביא האכילה, (בהסתברות: 0.3702213279678068)
+			</li>
+			<li> 37: גבהות החובקת שלילת שולטות הטובות. בכפלים צבעיו חכמות ציוריו וכחות להושיע בים המעשים. הקומה ובמעשים, טובו, ומתקדש כללים הדיוק להנתק (בהסתברות: 0.34448818897637795)
+			</li>
+			<li> 0: בפרט. הצדיקים מ. להקדים דבקים העליונות שירת מזה המדבר. הצומח, המגיע הקירוב לפי הדין, המורגשת בתר כוללות חטאים חזות תוספת (בהסתברות: 0.30337078651685395)
+			</li>
+			<li> 16: התרבותית הבו קורא, מברר שבתורת קסא. סיגי להועיל המחזיק ותורה מרחבי העצמית. כיעור, שיתמלא ותחולל עשות וידעו מאגדת לבדה יתרחבו (בהסתברות: 0.232)
+			</li>
+		</ul>
+
+		<h2>מלא הערכתך:</h2>
+		<form action="https://formspree.io/f/xgebkzpk" method="POST">
+            <input type="hidden" name="Text name" value="קובץ ב">
+			<label for="name">שם מלא:</label>
+			<input type="text" id="name" name="name">
+			<br>
+			<label for="expertise">רמת מומחיות:</label>
+			<select id="expertise" name="expertise">
+			  <option value="מתחיל">מתחיל</option>
+			  <option value="בינוני">בינוני</option>
+			  <option value="מומחה">מומחה</option>
+			</select>
+			<br>
+
+			<label for="incorrect">הנושאים שסווגו אבל לא מתאימים לטקסט:</label>
+			<textarea id="incorrect" name="incorrect" rows="4" cols="50"></textarea>
+			<br>
+
+			<label for="missing">הנושאים שחסרים בסיווג:</label>
+			<textarea id="missing" name="missing" rows="4" cols="50"></textarea>
+			<br>
+
+			<input type="hidden" name="_next" value="https://your-website.com/thank-you.html">
+			<input type="hidden" name="_subject" value="Feedback for קובץ ב">
+			<input type="email" name="_replyto" style="display:none">
+			<input type="submit" value="Submit">
+		</form>
+		<button onclick="goBack()" class="back-button">חזור</button>
+
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+	</main>
+
+	<footer>
+		<p>© Mini project NLP</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
